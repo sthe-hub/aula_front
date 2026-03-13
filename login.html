@@ -1,32 +1,63 @@
-<!DOCTYPE html>
-<html lang="en">
 
+<!DOCTYPE html>
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<title>Login</title>
+
+<style>
+
+body{
+    font-family: Arial;
+    background:#f0f0f0;
+}
+
+.container{
+    width:300px;
+    margin:auto;
+    margin-top:100px;
+    padding:20px;
+    background:white;
+    border-radius:5px;
+}
+
+input{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+}
+
+button{
+    margin-top:10px;
+    width:100%;
+    padding:10px;
+}
+
+</style>
+
 </head>
 
 <body>
-    <div class="content">
-        <div class="left">
-            <h2> Bem Vindo</h2>
-            <p>Mantenha-se conectado ao nosso sistema</p>
-            <button>SIGN IN</button>
-        </div>
-        <div class="right">
-            <h2>Create account</h2>
-            <span>ou use seu email</span>
-            <br>
-            <div class="content-input">
-                <input type="text" placeholder="Digite seu nome">
-                <input type="email" placeholder="Digite seu email">
-                <input type="password" placeholder="Digite sua senha">
-            </div>
-            <button>SIGN UP</button>
-        </div>
-    </div>
-</body>
 
+<div class="container">
+
+<h2>Login</h2>
+
+<form method="POST" action="https://n8n.inetz.com.br/webhook-test/lucas">
+
+<input type="email" name="email" placeholder="Email">
+
+<input type="password" name="senha" placeholder="Senha">
+
+<button type="submit">Entrar</button>
+
+</form>
+
+<br>
+
+<a href="cadastro.html">Criar conta</a>
+
+</div>
+
+</body>
 </html>
