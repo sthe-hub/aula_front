@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(249, 198, 224);
+}
+
+.content{
+    display: flex;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+
+
+    background-color: blueviolet;
+    width: 50%;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 20px 0px 0px 20px;;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+
+    background-color: cornflowerblue;
+    border: 1px solid black; 
+    width: 50%;
+    height: 500px;
+    border-radius: 0px 20px 20px 0px;
+    
+}
+
+.content-input{
+    display: flex;
+    flex-direction: column;
+}
